@@ -6,8 +6,10 @@
   "packageManager": "pnpm@9.1.4",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
+    "lint": "eslint .",
+    "typecheck": "vue-tsc --noEmit",
     "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
