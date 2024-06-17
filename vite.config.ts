@@ -11,11 +11,11 @@ export default defineConfig({
     vue(),
     UnoCSS(),
     Components({
-      dts: './src/components.d.ts',
+      dts: true,
     }),
     AutoImports({
       imports: ['vue'],
-      dts: './src/auto-imports.d.ts',
+      dts: true,
     }),
   ],
   resolve: {
